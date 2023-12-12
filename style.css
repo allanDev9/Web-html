@@ -12,7 +12,7 @@ body{
     display: flex;
     align-items: center;
     place-content: center;
-    color: blue;
+    color: rgb(204, 212, 215);
     border: 10px;
 
 }
