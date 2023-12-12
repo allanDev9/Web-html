@@ -1,0 +1,37 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.titulo h2{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    color: blue;
+    border: 10px;
+
+}
+.correo{
+    font-size: 20px;
+}
+.correo input{
+    margin-top: 20px;
+}
+.contraseña{
+    font-size: 20px;
+}
+.contraseña input{
+    margin-top: 20px;
+}
+button{
+    position: relative;
+    margin-left: 35%;
+    margin-top: 10%;
+    border: none;
+    background-color: hsl(341, 100%, 75%) ;
+}
