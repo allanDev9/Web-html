@@ -4,6 +4,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: hsl(200, 91%, 78%);
 
 }
 .titulo h2{
@@ -13,25 +14,29 @@ body{
     align-items: center;
     place-content: center;
     color: rgba(50, 39, 255, 0.574);
-    border: 10px;
 
 }
 fieldset form label{
-    font-size: 18px;;
+    font-size: 18px;
 }
 
 button{
     position: relative;
     left: 32%;
-    bottom: 60px;
     background-color: hsl(0, 0%, 100%) ;
 }
 fieldset{
-    font-size: 90px;
+    font-size: 80px;
 }
-fieldset div a{
+.link{
+    font-size: 15px;
+    text-decoration: none;
     display: flex;
     justify-content: center;
-    margin-top: 60px;
-    font-size:16px;
+    position: relative;
+    top: 58px;
+
 }
+fieldset input{
+    background-color: hsl(198, 85%, 95%);
+};
