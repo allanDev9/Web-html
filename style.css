@@ -12,26 +12,26 @@ body{
     display: flex;
     align-items: center;
     place-content: center;
-    color: rgb(204, 212, 215);
+    color: rgba(50, 39, 255, 0.574);
     border: 10px;
 
 }
-.correo{
-    font-size: 20px;
+fieldset form label{
+    font-size: 18px;;
 }
-.correo input{
-    margin-top: 20px;
-}
-.contraseña{
-    font-size: 20px;
-}
-.contraseña input{
-    margin-top: 20px;
-}
+
 button{
     position: relative;
-    margin-left: 35%;
-    margin-top: 10%;
-    border: none;
-    background-color: hsl(341, 100%, 75%) ;
+    left: 32%;
+    bottom: 60px;
+    background-color: hsl(0, 0%, 100%) ;
+}
+fieldset{
+    font-size: 90px;
+}
+fieldset div a{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size:16px;
 }
